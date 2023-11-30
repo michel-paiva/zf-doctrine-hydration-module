@@ -19,10 +19,10 @@ use Zend\Hydrator\NamingStrategy\NamingStrategyInterface;
 use Zend\Hydrator\NamingStrategyEnabledInterface;
 use Zend\Hydrator\Strategy\StrategyInterface;
 use Zend\Hydrator\StrategyEnabledInterface;
-use Zend\ServiceManager\AbstractFactoryInterface;
-use Zend\ServiceManager\Exception\ServiceNotCreatedException;
-use Zend\ServiceManager\Exception\ServiceNotFoundException;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\AbstractFactoryInterface;
+use Laminas\ServiceManager\Exception\ServiceNotCreatedException;
+use Laminas\ServiceManager\Exception\ServiceNotFoundException;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 /**
  * Class DoctrineHydratorFactory.

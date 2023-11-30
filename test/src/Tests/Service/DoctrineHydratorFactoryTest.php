@@ -5,7 +5,7 @@ namespace PhproTest\DoctrineHydrationModule\Tests\Service;
 use PhproTest\DoctrineHydrationModule\Hydrator\CustomBuildHydratorFactory;
 use Phpro\DoctrineHydrationModule\Service\DoctrineHydratorFactory;
 use PHPUnit\Framework\TestCase;
-use Zend\ServiceManager\ServiceManager;
+use Laminas\ServiceManager\ServiceManager;
 use Zend\Hydrator\HydratorPluginManager;
 
 class DoctrineHydratorFactoryTest extends TestCase
@@ -114,7 +114,7 @@ class DoctrineHydratorFactoryTest extends TestCase
     public function it_should_be_an_abstract_factory()
     {
         $factory = new DoctrineHydratorFactory();
-        $this->assertInstanceOf('Zend\ServiceManager\AbstractFactoryInterface', $factory);
+        $this->assertInstanceOf('Laminas\ServiceManager\AbstractFactoryInterface', $factory);
     }
 
     /**
